@@ -1,0 +1,40 @@
+# robots.txt — Sofie Kerkhove, medisch pedicure (SMSAK v5.5-standaard)
+# Een bot met een eigen groep negeert "User-agent: *", daarom herhaalt elke groep dezelfde regels.
+
+User-agent: *
+Allow: /
+Disallow: /privacy
+Disallow: /voorwaarden
+Disallow: /cookies
+Disallow: /404
+
+# Antwoordmachines: zoeken en ophalen
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Amazonbot
+Allow: /
+Disallow: /privacy
+Disallow: /voorwaarden
+Disallow: /cookies
+Disallow: /404
+
+# Trainingscrawlers: standaard toegelaten (keuze van de zaak; aanpasbaar)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /privacy
+Disallow: /voorwaarden
+Disallow: /cookies
+Disallow: /404
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://website-sofiekerkhove.vercel.app/sitemap.xml

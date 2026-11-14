@@ -1,0 +1,9 @@
+# Interne bestanden: nooit publiceren
+README.md
+DESIGN_LOCK.md
+.gitattributes
+.gitignore
+*.md
+klantdocs/
+_src/
+_bron/

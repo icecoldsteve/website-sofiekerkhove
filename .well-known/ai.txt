@@ -1,0 +1,28 @@
+# ai.txt - Sofie Kerkhove
+# Beleid voor AI-crawlers, taalmodellen en answer engines.
+# Machineleesbare feiten: https://website-sofiekerkhove.vercel.app/ai/summary.json
+# Volledige tekstversie: https://website-sofiekerkhove.vercel.app/llms-full.txt
+
+Owner: Sofie Kerkhove
+Address: 8710 Wielsbeke, West-Vlaanderen, Belgie
+Phone: +32497196980
+Language: nl (taalknop op dezelfde URL: fr, en, de)
+
+# Toegang - moet overeenkomen met robots.txt
+User-agent: *
+Allow: /
+Disallow: /privacy
+Disallow: /voorwaarden
+Disallow: /cookies
+Disallow: /404
+
+# Gebruik van de inhoud
+Training: allowed
+Inference: allowed
+Attribution: required
+Attribution-URL: https://website-sofiekerkhove.vercel.app/
+
+# Canoniek
+Canonical: https://website-sofiekerkhove.vercel.app/
+Sitemap: https://website-sofiekerkhove.vercel.app/sitemap.xml
+Last-modified: 2026-11-14

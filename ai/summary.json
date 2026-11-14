@@ -1,0 +1,47 @@
+{
+  "_comment": "Dezelfde entiteit als de JSON-LD in index.html, los opvraagbaar. Elke waarde komt letterlijk uit die @graph.",
+  "@context": "https://schema.org",
+  "@type": [
+    "HealthAndBeautyBusiness",
+    "LocalBusiness"
+  ],
+  "@id": "https://website-sofiekerkhove.vercel.app/#business",
+  "name": "Sofie Kerkhove",
+  "url": "https://website-sofiekerkhove.vercel.app/",
+  "telephone": "+32497196980",
+  "address": {
+    "addressLocality": "Wielsbeke",
+    "postalCode": "8710",
+    "addressRegion": "West-Vlaanderen",
+    "addressCountry": "BE"
+  },
+  "languages": [
+    "nl"
+  ],
+  "areaServed": [
+    "Wielsbeke",
+    "Ooigem",
+    "Sint-Baafs-Vijve",
+    "Waregem",
+    "Oostrozebeke",
+    "Dentergem",
+    "Harelbeke"
+  ],
+  "priceRange": "€€",
+  "image": "https://website-sofiekerkhove.vercel.app/og.jpg",
+  "attribution": {
+    "required": true,
+    "url": "https://website-sofiekerkhove.vercel.app/"
+  },
+  "lastUpdated": "2026-11-14",
+  "siteLanguageToggle": [
+    "fr",
+    "en",
+    "de"
+  ],
+  "facts": [
+    "Sofie Kerkhove werkt al 17 jaar als medisch pedicure.",
+    "Behandeling in de praktijk in Wielsbeke of aan huis, enkel op afspraak.",
+    "Indicatieve tarieven: medische pedicure 38 euro, likdoorn of ingegroeide nagel vanaf 8 euro extra, verplaatsing bij huisbezoek 5 euro."
+  ]
+}
